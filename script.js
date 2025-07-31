@@ -11,7 +11,7 @@ ScrollReveal().reveal(".fullContainer", {
      delay: 400,
 });
 let inp = document.querySelector(".inp");
-let eyeImage = document.querySelector(".eyeImage");
+
 let result = document.querySelector(".result")
 inp.addEventListener("input",()=>{
 let input = inp.value;
