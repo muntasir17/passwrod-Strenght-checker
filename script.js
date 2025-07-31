@@ -26,16 +26,7 @@ result.innerHTML = `strong password`;
 result.style.color = "black";
 }
 });
-eyeImage.addEventListener("click",()=>{
-let input = inp;
-if(input.type === "password"){
-input.type = "text";
-eyeImage.src = "https://cdn-icons-png.flaticon.com/128/709/709612.png";
-}else{
-inp.type = "password";
-eyeImage.src = "https://cdn-icons-png.flaticon.com/128/2767/2767146.png";
-}
-});
+
 
 
 
